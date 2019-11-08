@@ -80,7 +80,7 @@ def process(args,
             length_min=5,
             length_max=15,
             stride = 5,
-            padding = 32,
+            padding = 0,
             verbose = False):
     
     pdb_file, savepath = args
